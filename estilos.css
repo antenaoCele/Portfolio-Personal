@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.miNombre {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: rgb(3, 154, 204);
+    top: 1000px;
+    left: 1000px;
+    font-size: 50px; 
+    margin: 0; 
+}
+
+.divPrincipal {
+    display: flex; 
+    align-items: flex-start;
+    gap: 40px; 
+    
+}
+
