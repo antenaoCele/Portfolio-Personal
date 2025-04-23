@@ -4,18 +4,33 @@ body {
 }
 
 .miNombre {
-    font-family: 'Roboto', Arial, sans-serif;
-    color: rgb(3, 154, 204);
-    top: 1000px;
-    left: 1000px;
-    font-size: 50px; 
-    margin: 0; 
+    font-family: "Special Gothic Expanded One", sans-serif; 
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    font-size: 20px;
 }
 
-.divPrincipal {
-    display: flex; 
-    align-items: flex-start;
-    gap: 40px; 
-    
+
+ h1 span {
+    font-size: 17px; 
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    font-weight: 250;
+ }
+
+
+mark{
+    padding: 5px 5px; 
 }
 
+h1.bienvenida {
+    font-family: "Special Gothic Expanded One", sans-serif; 
+    font-size: 800;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
