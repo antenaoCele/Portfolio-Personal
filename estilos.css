@@ -28,9 +28,32 @@ mark{
 
 h1.bienvenida {
     font-family: "Special Gothic Expanded One", sans-serif; 
-    font-size: 800;
     color: black;
     position: absolute;
-    top: 200px;
+    top: 225px;
     left: 700px;
+}
+
+h1 mark.programacion {
+    border-radius: 25px;
+    background-color: lightblue;
+    padding: 1px 12px
+}
+
+.botones {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+}
+
+.boton {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: none; 
+    background-color: rgb(162, 131, 255);
+    padding: 10px 20px; 
+    border-radius: 25px;
+    border: solid;
+    
 }
