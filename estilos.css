@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+/* TITULO PRINCIPAL */
 .miNombre {
     font-family: "Special Gothic Expanded One", sans-serif; 
     color: black;
@@ -26,6 +27,7 @@ mark{
     padding: 5px 5px; 
 }
 
+/* PARRAFO DE BIENVENIDA */
 h1.bienvenida {
     font-family: "Special Gothic Expanded One", sans-serif; 
     color: black;
@@ -40,9 +42,28 @@ h1 mark.programacion {
     padding: 1px 12px
 }
 
+
+/* FRASE CONOCEME */
+.conoceme {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    position: absolute;
+    top: 520px;
+    left: 860px;
+    
+}
+
+p mark {
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+
+/* BOTONES-LINKS */
 .botones {
     position: absolute;
-    top: 500px;
+    top: 600px;
     left: 800px;
 }
 
@@ -56,4 +77,15 @@ h1 mark.programacion {
     border-radius: 25px;
     border: solid;
     
+}
+
+a:hover{
+    color: white;
+}
+
+
+/* IMAGEN LENGUAJES */
+.imagen {
+    position: absolute;
+    left:930px;
 }
