@@ -85,8 +85,6 @@ p mark {
     background-color: rgb(203, 186, 255);
     padding: 10px 20px; 
     border-radius: 25px;
-    border: solid; 
-    
 }
 
 /* ------------------------------BOTONES-LINKS------------------------------ */
@@ -138,7 +136,6 @@ a:hover{
     background-color: rgb(124, 217, 245);
     padding: 10px 20px; 
     border-radius: 25px;
-    border: solid; 
 }
 
 .listaObjetivos {
@@ -148,7 +145,6 @@ a:hover{
     background-color: rgb(232, 232, 231);
     padding: 10px 20px; 
     border-radius: 25px;
-    border: solid; 
 }
 
 
