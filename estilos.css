@@ -41,6 +41,16 @@ mark{
     border-radius: 35px;
 }
 
+#tituloMisProyectos {
+    position: absolute;
+    top: 140px; 
+    left: 580px; 
+    background-color: rgb(3, 206, 237, 0.784);
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: solid;
+}
+
 /* PARRAFOS */
 h1.bienvenida {
     position: absolute;
@@ -139,20 +149,31 @@ a:hover{
 
 /*TABLA*/
 table {
-    border: 2px solid black;
+    position: absolute; 
+    top: 260px;
+    left: 300px;
     border-collapse: collapse;
-    width: 100%;
     font-size: 18px; 
     text-align: center;
     margin-top: 20px;
+    background-color: rgb(224, 201, 253);
+    border-radius: 25px;
 }
 
-th, td {
-    border: 2px solid black;
+th, td, tr {
     padding: 12px; 
 }
 
 th {
-    background-color: #f2f2f2; 
+    background-color: rgb(196, 144, 255); 
     font-weight: bold;
+    border-radius: 25px;
+}
+
+th:hover {
+    background-color: rgb(224, 201, 253);
+}
+
+td:hover {
+    background-color: rgb(196, 144, 255);
 }
