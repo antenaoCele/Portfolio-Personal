@@ -10,7 +10,7 @@ h1, p, a {
 }
 
 
-/* TITULO PRINCIPAL */
+/* TITULOS */
 .miNombre {
     position: absolute;
     top: 0px;
@@ -32,7 +32,16 @@ mark{
     padding: 5px 5px; 
 }
 
-/* PARRAFO DE BIENVENIDA */
+#titulo {
+    position: absolute;
+    top: 15px; 
+    left: 340px; 
+    background-color: rgb(3, 206, 237, 0.784);
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+
+/* PARRAFOS */
 h1.bienvenida {
     position: absolute;
     top: 225px;
@@ -45,8 +54,6 @@ h1 mark.programacion {
     padding: 1px 12px
 }
 
-
-/* FRASE CONOCEME */
 .conoceme {
     position: absolute;
     top: 520px;
@@ -60,6 +67,17 @@ p mark {
     background-color: rgb(233, 233, 233);  
 }
 
+.textoSobreMi {
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    background-color: rgb(203, 186, 255);
+    padding: 10px 20px; 
+    border-radius: 25px;
+    border: solid; 
+    
+}
 
 /* BOTONES-LINKS */
 .botones {
@@ -83,26 +101,21 @@ a:hover{
     color: white;
 }
 
+.volverInicio {
+    position: absolute;
+    top: 600px;
+    left: 350px;
+}
 
-/* IMAGEN LENGUAJES */
+
+/* IMAGENES*/
 .imagen {
     position: absolute;
     left:930px;
 }
 
-/* TEXTO SOBRE MI */
-.textoSobreMi {
-    text-align: center;
-    position: absolute;
-    top: 150px;
-    left: 25px;
-    background-color: rgb(203, 186, 255);
-    padding: 10px 20px; 
-    border-radius: 25px;
-    border: solid; 
-}
 
-/*LISTADO LENGUAJES */
+/*LISTAS*/
 .listaLenguajes {
     position: absolute;
     top: 340px;
@@ -123,22 +136,23 @@ a:hover{
     border: solid; 
 }
 
-#sobreMi {
-    position: absolute;
-    top: 15px; 
-    left: 340px; 
-    background-color: rgb(3, 206, 237, 0.784);
-    padding: 10px 20px;
-    border-radius: 35px;
-}
 
-.volverInicio {
-    position: absolute;
-    top: 600px;
-    left: 350px;
-}
-
-table, td, th {
+/*TABLA*/
+table {
     border: 2px solid black;
     border-collapse: collapse;
+    width: 100%;
+    font-size: 18px; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 12px; 
+}
+
+th {
+    background-color: #f2f2f2; 
+    font-weight: bold;
 }
