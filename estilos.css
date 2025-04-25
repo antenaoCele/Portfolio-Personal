@@ -3,14 +3,14 @@ body {
     padding: 0;
 }
 
-h1, p, a {
+h1, p, a.boton {
     font-family: "Special Gothic Expanded One", sans-serif; 
     color: black;
     
 }
 
 
-/* TITULOS */
+/* ------------------------------TITULOS------------------------------ */
 .miNombre {
     position: absolute;
     top: 0px;
@@ -51,7 +51,7 @@ mark{
     border: solid;
 }
 
-/* PARRAFOS */
+/* ------------------------------PARRAFOS------------------------------ */
 h1.bienvenida {
     position: absolute;
     top: 225px;
@@ -89,7 +89,7 @@ p mark {
     
 }
 
-/* BOTONES-LINKS */
+/* ------------------------------BOTONES-LINKS------------------------------ */
 .botones {
     position: absolute;
     top: 600px;
@@ -117,15 +117,20 @@ a:hover{
     left: 350px;
 }
 
+.volverProyectos {
+    position: absolute;
+    top: 550px;
+    left: 640px;
+}
 
-/* IMAGENES*/
+/* ------------------------------IMAGENES------------------------------*/
 .imagen {
     position: absolute;
     left:930px;
 }
 
 
-/*LISTAS*/
+/*------------------------------LISTAS------------------------------*/
 .listaLenguajes {
     position: absolute;
     top: 340px;
@@ -147,14 +152,12 @@ a:hover{
 }
 
 
-/*TABLA*/
+/*------------------------------TABLA------------------------------*/
 table {
     position: absolute; 
     top: 260px;
     left: 300px;
-    border-collapse: collapse;
     font-size: 18px; 
-    text-align: center;
     margin-top: 20px;
     background-color: rgb(224, 201, 253);
     border-radius: 25px;
