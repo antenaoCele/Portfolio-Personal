@@ -137,3 +137,8 @@ a:hover{
     top: 600px;
     left: 350px;
 }
+
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
